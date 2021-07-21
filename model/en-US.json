@@ -1,0 +1,55 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "pay buddy",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PayIntent",
+                    "slots": [],
+                    "samples": [
+                        "pay",
+                        "pay using amazon pay",
+                        "pay my bill"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "RefundOrderIntent",
+                    "slots": [],
+                    "samples": [
+                        "refund",
+                        "i'd like a refund"
+                    ]
+                },
+                {
+                    "name": "CancelOrderIntent",
+                    "slots": [],
+                    "samples": [
+                        "cancel",
+                        "cancel my payment"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
