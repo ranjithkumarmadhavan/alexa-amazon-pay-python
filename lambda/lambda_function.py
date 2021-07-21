@@ -90,7 +90,7 @@ class PayIntentHandler(AbstractRequestHandler):
                 }
             },
             "needAmazonShippingAddress": False,
-            "sandboxCustomerEmailId" : sandboxCustomerEmailId, #uncomment it for production
+            "sandboxCustomerEmailId" : sandboxCustomerEmailId, #remove it for production
             "sandboxMode" : True #change it to False for True
         }
         return handler_input.response_builder.add_directive(SendRequestDirective("Setup",payload,token)).set_should_end_session(True).response  
